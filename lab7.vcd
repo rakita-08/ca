@@ -1,0 +1,44 @@
+$date
+	Mon Mar 17 21:35:24 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module even_parity_test $end
+$var wire 1 ! parity $end
+$var reg 4 " data [3:0] $end
+$scope module dut $end
+$var wire 4 # data [3:0] $end
+$var wire 1 ! parity $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b100 #
+b100 "
+0!
+$end
+#10
+1!
+b1010 "
+b1010 #
+#20
+1!
+b110 "
+b110 #
+#30
+0!
+b111 "
+b111 #
+#40
+1!
+b1111 "
+b1111 #
+#50

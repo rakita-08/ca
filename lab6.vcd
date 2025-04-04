@@ -1,0 +1,43 @@
+$date
+	Mon Mar 17 21:26:52 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module odd_parity_test $end
+$var wire 1 ! parity $end
+$var reg 4 " data [3:0] $end
+$scope module dut $end
+$var wire 4 # data [3:0] $end
+$var wire 1 ! parity $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 #
+b0 "
+1!
+$end
+#10
+0!
+b1 "
+b1 #
+#20
+b10 "
+b10 #
+#30
+0!
+b111 "
+b111 #
+#40
+1!
+b1111 "
+b1111 #
+#50
