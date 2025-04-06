@@ -1,0 +1,82 @@
+$date
+	Thu Mar 20 20:06:43 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module shiftest $end
+$var wire 1 ! H3 $end
+$var wire 1 " H2 $end
+$var wire 1 # H1 $end
+$var wire 1 $ H0 $end
+$var reg 1 % IL $end
+$var reg 1 & IR $end
+$var reg 1 ' a0 $end
+$var reg 1 ( a1 $end
+$var reg 1 ) a2 $end
+$var reg 1 * a3 $end
+$var reg 1 + s $end
+$scope module SH $end
+$var wire 1 ' a0 $end
+$var wire 1 ( a1 $end
+$var wire 1 ) a2 $end
+$var wire 1 * a3 $end
+$var wire 1 + sel $end
+$var wire 1 % si_il $end
+$var wire 1 & si_ir $end
+$var wire 2 , inreg4 [1:0] $end
+$var wire 2 - inreg3 [1:0] $end
+$var wire 2 . inreg2 [1:0] $end
+$var wire 2 / inreg1 [1:0] $end
+$var wire 1 ! H3 $end
+$var wire 1 " H2 $end
+$var wire 1 # H1 $end
+$var wire 1 $ H0 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1 /
+b1 .
+b10 -
+b10 ,
+0+
+0*
+1)
+1(
+0'
+0&
+0%
+1$
+1#
+0"
+0!
+$end
+#5
+0$
+b0 /
+b0 -
+0(
+#10
+0#
+b0 .
+b0 ,
+0)
+#15
+1"
+b1 -
+1*
+#20
+1#
+0"
+1+
+b10 .
+1'
+#30
